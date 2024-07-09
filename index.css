@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding-top: 12px;
+}
+nav{
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 7px;
+}
+.em{
+    height: 5vh;
+    width: 100%;
+    outline: 0;
+}
+button{
+    background-color: rgb(92, 170, 230);
+    height: 5vh;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+button:hover{
+    opacity: 0.9;
+}
+.first{
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(240, 238, 238);
+}
+.user{
+    height: 5vh;
+    padding: 10px;
+    
+    background-color: rgba(212, 209, 209, 0.92);
+}
+.second{
+    border: 1px black solid;
+    background-color: white;
+    height: 25vh;
+}
+.sec{
+    margin: 30px;
+}
+.profile{
+    padding: 10px;
+}
+.decision{
+    display: flex;
+    margin: 50px;
+}
+.deci{
+    width: 40vw;
+}
+.deci2{
+    width: 40vw;
+    margin-left: 50px;
+}
+.deci3{
+    width: 40vw;
+    margin-left: 25vw;
+}
